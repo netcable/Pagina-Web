@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cable Net</title>
+    <script src="//code.tidio.co/mteuyjoaymtokhi9tlsxlgqubb4vyszp.js" async></script>
+    <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- NAVEGADOR -->
+        <nav class="menu">
+            <section class="contenedor_menu">
+                <img src="img/logo.png" class="logo_menu">
+                <div class="cont_enlaces">
+                    <ul class="menu_links">
+                        <li class="menu_item">
+                            <a href="#banner" class="link">Inicio</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#nosotros" class="link">Nosotros</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#portafolio" class="link">Portafolio</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#servicios" class="link">Servicios</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#planes" class="link">Planes</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#contacto" class="link">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu_icon">
+                    <img src="img/menu.svg" class="menu_img">
+                </div>
+            </section>
+        </nav>
+        <script src="js/navegador.js"></script>
+    </header>
+
+    <main>
+        <!-- BANNER -->
+        <section class="slider" id="banner">
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>SERVICIOS DE CALIDAD</h1>
+                    <p>Brindamos servicios de internet <br> 100% fibra óptica y tv por cable</p>
+                    <a href="#servicios" class="btn-shop">SERVICIOS</a>
+                </div>
+                <img src="img/port1.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>GRANDES PROMOCIONES</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Laboriosam, labore!</p>
+                    <a href="#servicios" class="btn-shop">SERVICIOS</a>
+                </div>
+                <img src="img/port2.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>¡TODO AL MEJOR PRECIO!</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Laboriosam, labore!</p>
+                    <a href="#servicios" class="btn-shop">SERVICIOS</a>
+                </div>
+                <img src="img/port3.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>GRAN VARIEDAD DE PLANES</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Laboriosam, labore!</p>
+                    <a href="#servicios" class="btn-shop">SERVICIOS</a>
+                </div>
+                <img src="img/port4.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <a class="slider__btn slider__btn--left" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="slider__btn slider__btn--right" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+        <script src="js/banner.js"></script>
+        <!-- SECCION NOSOTROS -->
+        <section class="sobre-nosotros" id="nosotros">
+            <div class="contenedor">
+                <h2 class="titulo">CONOCE A CABLE NET</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="img/presentacion.jpg" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3><span>1</span>¿Quiénes Somos?</h3>
+                        <p>Comunicaciones Simonnete E.I.R.L. también conocido como Cable Net, es una empresa de
+                            telecomunicaciones que brinda servicios de internet y tv por cable. Inicio sus labores el 13
+                            de abril del año 2009. Está conformado por un equipo de personas con conocimiento y
+                            preparadas
+                            para poder darle una buena experiencia a sus clientes ya sea en la atención del trabajador
+                            como
+                            en el servicio que se les brinda.</p>
+                        <h3><span>2</span>Visión</h3>
+                        <p>Llevamos a las familias la mejor experiencia de conectividad y entretenimiento con tecnología
+                            de vanguardia y excelencia en el servicio.</p>
+                        <h3><span>3</span>Misión</h3>
+                        <p>Ser la empresa peruana de telecomunicaciones más representativa a nivel provincial mejorando
+                            la calidad de vida de nuestros usuarios y colaboradores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION PORTAFOLIO -->
+        <section class="portafolio" id="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">NUESTRO PORTAFOLIO</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/img1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal1"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img2.png" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal2"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal3"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal4"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal5"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal6"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img7.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal7"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img8.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal8"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- VENTANAS MODALES DEL PORTAFOLIO -->
+        <section id="modal1" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>30 Mbps</h1>
+                <span>S/.50 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/modem.png">
+                        <p>Nuestros planes incluyen <br> modem de alta potencia</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>60Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="2" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="modal2" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>50 Mbps</h1>
+                <span>S/.70 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/modem.png">
+                        <p>Nuestros planes incluyen <br> modem de alta potencia</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>100Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="3" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="modal3" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>75 Mbps</h1>
+                <span>S/.90 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/modem.png">
+                        <p>Nuestros planes incluyen <br> modem de alta potencia</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>150Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="4" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="modal4" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>100 Mbps</h1>
+                <span>S/.120 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/modem.png">
+                        <p>Nuestros planes incluyen <br> modem de alta potencia</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>200Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="5" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="modal5" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>30 Mbps</h1>
+                <span>S/.70 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/tv.png">
+                        <p>80 Canales Edtándar (SD) + <br> 50 Caneles Digitales (HD)</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>60Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="6" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="modal6" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>50 Mbps</h1>
+                <span>S/.90 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/tv.png">
+                        <p>80 Canales Edtándar (SD) + <br> 50 Caneles Digitales (HD)</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>100Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="7" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="modal7" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>75 Mbps</h1>
+                <span>S/.120 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/tv.png">
+                        <p>80 Canales Edtándar (SD) + <br> 50 Caneles Digitales (HD)</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>150Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="8" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="modal8" class="modal">
+            <div class="modal_container">
+                <h2>Internet Hogar</h2>
+                <h1>100 Mbps</h1>
+                <span>S/.135 / mes</span>
+                <hr>
+                <ul class="oferta">
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON.png">
+                        </div>
+                        <div class="text">
+                            <p>100% Fibra óptica</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-modal"><img src="https://www.nubyx.pe/wp-content/uploads/2022/08/ICON1.png">
+                        </div>
+                        <div class="text">
+                            <p>Internet ilimitado en todos tus dispositivos</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="suboferta">
+                    <li>
+                        <img src="img/tv.png">
+                        <p>80 Canales Edtándar (SD) + <br> 50 Caneles Digitales (HD)</p>
+                    </li>
+                </ul>
+                <hr>
+                <div class="promocion">
+                    <p>¡Por tiempo limitado!</p>
+                    <div class="cont-promo">
+                        <div class="prom-text">
+                            <h3>RECIBE EL</h3>
+                            <h1>DOBLE</h1>
+                            <h3>DE VELOCIDAD</h3>
+                        </div>
+                        <div class="prom-subtext">
+                            <h1>200Mbps</h1>
+                            <p>Los 2 primeros meses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-boton">
+                    <form action="venta.php" method="get" class="form-modal">
+                        <input type="text" name="txtservicio" value="9" class="campo_vacio">
+                        <input type="submit" name="btnenviar" class="btn-modal" value="Me interesa">
+                        <a href="#portafolio" class="btn-close"> x </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION PRODUCTOS -->
+        <section class="servicios" id="servicios">
+            <div class="contenedor">
+                <h2 class="titulo">NUESTROS SERVICIOS</h2>
+                <div class="contenedor-servicios">
+                    <div class="card-serv">
+                        <figure>
+                            <img src="img/servicio1.png">
+                        </figure>
+                        <div class="contenido-serv">
+                            <h3>Cable</h3>
+                            <p>Canales variados con <br> la mejor programación <br> 80 Canales Edtándar (SD) + <br> 50
+                                Caneles Digitales (HD)</p>
+                            <form action="reporte_producto.php" method="POST">
+                                <input type="submit" value="¡Mas Información!" class="input-pro">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-serv">
+                        <figure>
+                            <img src="img/servicio2.png">
+                        </figure>
+                        <div class="contenido-serv">
+                            <h3>Internet</h3>
+                            <p>Internet de alta velocidad <br> para una mejor productividad <br> Planes de hasta 150
+                                Mbps <br> con Fibra Óptica</p>
+                            <form action="reporte_producto.php" method="POST">
+                                <input type="submit" value="¡Mas Información!" class="input-pro">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-serv">
+                        <figure>
+                            <img src="img/servicio3.png">
+                        </figure>
+                        <div class="contenido-serv">
+                            <h3>Dúos</h3>
+                            <p>Doblemente conectados <br> con una super velocidad de <br> internet y una excelente <br>
+                                programación de 130 canales</p>
+                            <form action="reporte_producto.php" method="POST">
+                                <input type="submit" value="¡Mas Información!" class="input-pro">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION PLANES -->
+        <section class="planes" id="planes">
+            <div class="contenedor">
+                <h2 class="titulo">NUESTROS PLANES</h2>
+                <div class="main-card">
+                    <h2 class="subtitulo">SERVICIO DE CABLE</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>CABLE</h3>
+                                    <h4>EL MEJOR ENTRETENIMIENTO</h4>
+                                </div>
+                                <div class="img">
+                                    <img src="img/plan1.png" alt="">
+                                </div>
+                                <div class="sub-details">
+                                    <h4>Televisión <br> FulL HD</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="subtitulo">SERVICIO DE INTERNET</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>30 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>50</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>50 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>70</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>75 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>90</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>100 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>120</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="subtitulo">PLANES DÚOS</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>30 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>70</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                    <h4>Canales en HD</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>50 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>90</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                    <h4>Canales en HD</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>75 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>120</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                    <h4>Canales en HD</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="details">
+                                    <h3>100 MB</h3>
+                                    <h4>(Velocidad de internet)</h4>
+                                </div>
+                                <div class="precio-inter">
+                                    <img src="img/soles.png">
+                                    <h1>135</h1>
+                                </div>
+                                <div class="sub-details">
+                                    <h3>Al mes</h3>
+                                    <h4>100% Fibra Óptica <br> internet ilimitado en <br> todos tus dispositivos</h4>
+                                    <h4>Canales en HD</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECION CONTACTO -->
+        <section class="contacto" id="contacto">
+            <div class="contenedor-general">
+                <div class="contenedor-info">
+                    <div class="contenedor-cont">
+                        <h2>CONTÁCTANOS</h2>
+                        <p>Atención de lunes a viernes de 9 a.m a 7 p.m y sábados de 9 a.m a 12 p.m</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/location.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Dirección</h3>
+                            <p>Calle Junín #164 Alto Laran</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/phone.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Celular</h3>
+                            <p>+51 956 634 414</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/email.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Email</h3>
+                            <p>larantvplus@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <p>Encuentranos en:</p>
+                        <div class="social-icons">
+                            <a href="#">
+                                <img src="img/facebook.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/instagram.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/twitter.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/linkedin.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-form">
+                    <form action="" id="form">
+                        <h2>ENVÍA UN CORREO</h2>
+                        <div class="inputbox">
+                            <input type="text" name="nombre" id="nombre" autocomplete="off" required>
+                            <span>Nombres y Apellidos</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="email" name="mail" id="mail" autocomplete="off" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="asunto" id="asunto" autocomplete="off" required>
+                            <span>Asunto</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea name="mensaje" id="mensaje" autocomplete="off" required></textarea>
+                            <span>Mensaje</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="ENVIAR">
+                        </div>
+                    </form>
+                    <a href="mailto:larantvplus@gmail.com" id="enviar">enviar</a>
+                </div>
+            </div>
+        </section>
+        <script>
+            const $form = document.querySelector('#form')
+            const $buttonMailto = document.querySelector('#enviar')
+
+            $form.addEventListener('submit', handleSubmit)
+
+            function handleSubmit(event) {
+                event.preventDefault()
+                const form = new FormData(this)
+                console.log(form.get('nombre'))
+                $buttonMailto.setAttribute('href', `mailto:larantvplus@gmail.com?subject=Asunto: ${form.get('asunto')}&body=Nombres y Apellidos: ${form.get('nombre')} %0ACorreo: ${form.get('mail')} %0AMensaje: ${form.get('mensaje')}`)
+                $buttonMailto.click()
+            }
+        </script>
+    </main>
+    <footer class="main-footer">
+        <div class="footer__section">
+            <h2 class="footer__title">SOBRE NOSOTROS:</h2>
+            <p class="footer__txt">Comunicaciones Simonnete E.I.R.L. también conocido como Cable Net, es una empresa de
+                telecomunicaciones que brinda servicios de internet y tv por cable. Inicio sus labores el 13
+                de abril del año 2009.</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">UBICACIÓN:</h2>
+            <p class="footer__txt">Calle Junín #164 Alto Laran</p>
+            <h2 class="footer__title">CONTACTOS: </h2>
+            <p class="footer__txt">Teléfono: +51 956 634 414</p>
+            <p class="footer__txt">Correo: larantvplus@gmail.com</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">ENLACES:</h2>
+            <a href="#banner" class="footer__link">Inicio</a>
+            <a href="#nosotros" class="footer__link">Nosotros</a>
+            <a href="#portafolio" class="footer__link">Portafolio</a>
+            <a href="#servicios" class="footer__link">Servicios</a>
+            <a href="#planes" class="footer__link">Planes</a>
+            <a href="#contacto" class="footer__link">Contacto</a>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">SUSCRIBETE:</h2>
+            <p class="footer__txt">Al suscribirse a nuestra lista de correo, siempre recibirá nuestras últimas noticias
+                y actualizaciones.</p>
+            <input type="email" class="footer__input" placeholder="Enter your email">
+        </div>
+        <p class="copy">&copy; 2023 CABLE NET | COMUNICACIONES SIMONNETE E.I.R.L.</p>
+    </footer>
+</body>
+
+</html>
